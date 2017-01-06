@@ -30,6 +30,11 @@ gem 'turbolinks', '~> 5'
 # Admin Authorization and Authentication
 gem 'devise'
 
+# Article URL Names
+gem 'friendly_id', '~> 5.1.0'
+
+# Contact Form
+gem 'mail_form'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
