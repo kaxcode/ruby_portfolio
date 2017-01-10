@@ -1,15 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
-.navbar-brand {
-  padding: 5px;
-  padding-left: 20px;
-  height: 50px;
-  position: relative;
-}
 
-.navbar-brand img {
-  height: 100%;
-}
+@media (min-width: 768px) {
+  // .navbar-fixed-top {
+  //   padding: 25px 0;
+  //   transition: padding 0.3s;
+  }
+  .navbar-brand-text {
+    font-size: 2em;
+    transition: all 0.3s;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .nav-bar-icon {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+  }
+//   .navbar-fixed-top.navbar-shrink {
+//     padding: 10px 0;
+//   }
+//   .navbar-fixed-top.navbar-shrink .navbar-brand {
+//     font-size: 1.5em;
+//   }
+// }
+
+// Nav bar logo image
+// .navbar-brand img {
+//   height: 100%;
+// }
 
 .thumbnail {
   max-width: 500px;
@@ -152,3 +172,65 @@ footer p {
 ul.links i {
   font-size: 25px;
 }
+
+
+// Scroll Back to top button
+// .scroll-top {
+//   position: fixed;
+//   right: 2%;
+//   bottom: 2%;
+//   width: 50px;
+//   height: 50px;
+//   z-index: 1049;
+// }
+//
+// .scroll-top .btn {
+//   font-size: 20px;
+//   width: 50px;
+//   height: 50px;
+//   border-radius: 100%;
+//   line-height: 28px;
+// }
+//
+// .scroll-top .btn:focus {
+//   outline: none;
+// }
+// #return-to-top {
+//   position: fixed;
+//   bottom: 20px;
+//   right: 20px;
+//   background: rgb(0, 0, 0);
+//   background: rgba(0, 0, 0, 0.7);
+//   width: 60px;
+//   height: 60px;
+//   display: block;
+//   text-decoration: none;
+//   -webkit-border-radius: 35px;
+//   -moz-border-radius: 35px;
+//   border-radius: 35px;
+//   -webkit-transition: all 0.3s linear;
+//   -moz-transition: all 0.3s ease;
+//   -ms-transition: all 0.3s ease;
+//   -o-transition: all 0.3s ease;
+//   transition: all 0.3s ease;
+// }
+// #return-to-top i {
+//   color: #fff;
+//   margin: 0;
+//   position: relative;
+//   left: 18px;
+//   top: 16px;
+//   font-size: 24px;
+//   -webkit-transition: all 0.3s ease;
+//   -moz-transition: all 0.3s ease;
+//   -ms-transition: all 0.3s ease;
+//   -o-transition: all 0.3s ease;
+//   transition: all 0.3s ease;
+// }
+// #return-to-top:hover {
+//   background: rgba(0, 0, 0, 0.9);
+// }
+// #return-to-top:hover i {
+//   color: #fff;
+//   top: 5px;
+// }

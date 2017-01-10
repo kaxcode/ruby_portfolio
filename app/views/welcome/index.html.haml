@@ -3,7 +3,7 @@
     .row
       .col-sm-12.head
         .logo
-          / Kenia Valladarez
+          /Kenia Valladarez
           / <img src=".png" alt="Kenia's Logo" />
         %h1.stm-font Full-Stack Developer
     .row
@@ -54,6 +54,22 @@
       / end element 2
     / -end row
   / end portfolio
+  / start contact
+  %section#contact.main-nav
+    %h1
+      %span.glyphicon.glyphicon-info-sign{"aria-hidden" => "true"}
+      Contact
+    .row
+      .col-sm-4
+        / My picture
+        / <img src="http://Kenia.altervista.org/ext/avatar.png" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
+      .col-sm-8
+        %h2.text-primary.stm-font Skills
+        %p.minor-text
+          Full Stack Web Development
+        %h2.text-primary.stm-font Tools
+        %p.minor-text
+          Ruby, Ruby on Rails, PostgreSQL - HTML, CSS, SCSS, Bootstrap - JavaScript, jQuery, React.js, PostgreSQL - Git, Heroku
 / end container
 %footer#links.main-nav.stm-font.dark-bg
   .container
@@ -79,3 +95,7 @@
       %p
         Copyright © 2017 by
         %a{:href => "", :target => "_blank"}
+
+-# .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
+-#   %a.btn.btn-primary{:href => "#page-top"}
+-#     %i.fa.fa-chevron-up
