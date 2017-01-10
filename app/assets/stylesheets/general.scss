@@ -1,7 +1,4 @@
-body {
-  background: fixed url('');
-  position: relative;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
 .navbar-brand {
   padding: 5px;
@@ -42,7 +39,7 @@ body {
 }
 
 .stm-font {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .color-hover:hover {
@@ -120,7 +117,7 @@ body {
 footer {
   height: 100%;
   min-height: 250px;
-  color: #ccc;
+  // color: #ccc;
   font-size: 1.5em;
 }
 
