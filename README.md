@@ -27,7 +27,8 @@ To create a rails portfolio using Ruby on Rails, Bootstrap, and some Javascript.
   * Add links to other model urls
   * Fix up the view for other model
     - Portfolio will have a see more button directing to portfolio#index
-  
+    - Contact will have a leave a message button (typewriter vector illustration)
+  * About add vector illustration
 
 - - - -
 # Results#
