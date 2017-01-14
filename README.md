@@ -12,10 +12,6 @@ To create a rails portfolio using Ruby on Rails, Bootstrap, and some Javascript.
 * ✅ manual VC for welcome
   *  Views/Controller = #index
     * #index will bring in posts and projects
-* Change the project scaffold/table to be portfolio
-  - leave only methods #index #show
-* Change the project scaffold/table to be articles
-
 
 * Bootstrap Template (Branch)
   * ✅ Change Nav bar and glyphicons
