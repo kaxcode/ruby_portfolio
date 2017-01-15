@@ -7,6 +7,12 @@
     Edit
   %h1 Show post
 
+-# - if user_signed_in?
+-#   #admin_links
+-#     = link_to "Edit Article", edit_post_path(@post)
+-#     = link_to "Delete Article", post_path(@post), method: :delete, data: { confirm: "Are you sure?" }
+
+
 %dl.dl-horizontal
   %dt Title:
   %dd= @post.title
