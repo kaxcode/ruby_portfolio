@@ -1,0 +1,178 @@
+/* Colors */
+$mainColor: #4A6491;
+$secondColor: #85A5CC;
+$thirdColor: #30395C;
+$fourthColor: #D0E4F2;
+
+/* mini reset */
+// * { margin:0;
+//   padding: 0;}
+
+.typewriter-box {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 0px;
+}
+
+/* General */
+body { background-color: #fff; }
+.clear { clear: both; }
+.fleft { float: left; }
+
+.type-key {
+  list-style: none;
+  width: 8px;
+  height: 8px;
+  background-color: $mainColor;
+  border-radius: 100%;
+  margin: 2px;
+  float: left;
+}
+
+.typewriter {
+  position: relative;
+  left: 55px;
+  top: 50px
+
+}
+
+/* Roll */
+.typewriter .roll { height: 35px; width: 182px; }
+
+.typewriter .roll .out {
+  height: 10px;
+  width: 100px;
+  background-color: $secondColor;
+  margin: 0 38px;
+  border-radius: 5px 5px 0 0;
+}
+.typewriter .roll .left,
+.typewriter .roll .right { width: 14px; }
+
+.typewriter .roll .center { width: 150px; height: 25px; background-color:$mainColor; }
+
+.firstpart {
+  width: 7px;
+  height: 25px;
+  background-color: $mainColor;
+}
+.secondpart {
+  margin-top: 8px;
+  width: 7px;
+  height: 10px;
+  background-color: $mainColor;
+}
+
+
+/* Typerwriter roll Paper */
+.typewriter .paper {
+  width: 100px;
+  height: 60px;
+  margin: -25px 0 0 38px;
+  position: absolute;
+  background-color: #fff;
+  -webkit-animation: showPaper 20s linear;
+  -moz-animation: showPaper 20s linear;
+  animation: showPaper 20s linear;
+}
+
+.typewriter .paper .papertext {
+  width: 80px;
+  height: 5px;
+  margin: 7px 0 0 9px;
+  display: block;
+  background-color: $thirdColor;
+
+  &:first-child {
+    margin-top: 8px;
+  }
+}
+
+/* Typewriter body */
+.typewriter .content {
+  width: 150px;
+  height: 150px;
+  margin: 0 18px 0 14px;
+}
+
+
+/* Typewriter body Top */
+.typewriter .content .top-content {
+  height: 42px;
+  border-radius: 0 0 15px 15px;
+  background-color: $secondColor;
+  z-index: 5;
+  position: relative;
+  padding-left: 11px
+}
+
+.typewriter .content .top-content .rounded-left {
+  width: 20px;
+  height: 20px;
+  margin: 4px 0 0 2px;
+  border: 7px solid $mainColor;
+  border-radius: 40px;
+  background-color: #ebebeb;
+}
+
+.typewriter .content .top-content .lettersbar {
+  width: 73px;
+  height: 32px;
+  margin: 5px 2px;
+  border-radius: 0 0 80px 80px;
+  background-color: #ebebeb;
+}
+
+.typewriter .content .top-content .rounded-right {
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 7px solid $mainColor;
+  border-radius: 40px;
+  background-color: #ebebeb;
+}
+
+
+/* Typewriter body Bottom */
+.typewriter .content .bottom-content {
+  height: 75px;
+  margin: -10px 5px 0 5px;
+  border-radius: 0 0 30px 30px;
+  background-color: $fourthColor;
+}
+
+.typewriter .content .bottom-content ul.first {
+  padding: 12px 0 0 8px;
+}
+
+.typewriter .content .bottom-content ul.second {
+  padding: 7px 0 0 3px;
+}
+
+.typewriter .content .bottom-content ul.third {
+  padding: 7px 0 0 14px;
+}
+
+.typewriter .content .bottom-content ul.last {
+  padding: 4px 0 0 33px;
+
+  li {
+    width: 70px;
+    border-radius: 5px;
+  }
+}
+
+
+/* Keyframes */
+@-webkit-keyframes showPaper {
+  0% { margin-top: 16px; }
+  100% { margin-top: -25px; }
+}
+@-moz-keyframes showPaper {
+  0% { margin-top: 16px; }
+  100% { margin-top: -25px; }
+}
+@keyframes showPaper {
+  0% { margin-top: 16px; }
+  100% { margin-top: -25px; }
+}

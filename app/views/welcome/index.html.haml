@@ -21,6 +21,10 @@
             .btn.btn-warning.btn-lg
               = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
                 %i.fa.fa-twitter
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-envelope-o
 
 / About me Section
 .container
@@ -116,7 +120,70 @@
       %span.fa.fa-envelope-o{"aria-hidden" => "true"}
       contact
     .container
-      .col-sm-12.center
+      .col-sm-5
+        =link_to new_contact_path do
+          %h3.text-center.typewriter-box leave a message
+          %section.typewriter
+            %section.roll.clear
+              .paper
+                %span.papertext  
+                %span.papertext  
+                %span.papertext  
+                %span.papertext  
+                %span.papertext  
+              .out
+              .left.fleft
+                %span.firstpart.fleft  
+                %span.secondpart.fleft  
+              .center.fleft
+              .right.fleft
+                %span.secondpart.fleft  
+                %span.firstpart.fleft  
+            %section.content
+              .top-content
+                %span.rounded-left.fleft  
+                %span.lettersbar.fleft  
+                %span.rounded-right.fleft  
+              .bottom-content
+                %ul.first
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                %ul.second
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                %ul.third
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                  %li.type-key
+                %ul.last
+                  %li.type-key
+      .col-sm-2.center
+        %h3
+          or
+      .col-sm-5.center
         %h3
           find me via
         %ul.list-inline.links
@@ -132,10 +199,7 @@
             .btn.btn-warning.btn-lg
               = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
                 %i.fa.fa-linkedin
-          %li
-            .btn.btn-warning.btn-lg
-              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
-                %i.fa.fa-envelope-o
+
 
 / end container
 %footer#links.main-nav.stm-font.dark-bg
