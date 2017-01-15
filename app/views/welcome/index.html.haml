@@ -1,2 +1,152 @@
-%h1
- Welcome to my portfolio
+%section#home.main-nav
+  .heading.dark-bg
+    .row
+      .col-sm-12.head
+        .logo
+          /Kenia Valladarez
+          / <img src=".png" alt="Kenia's Logo" />
+        %h1.stm-font full-stack developer
+    .row
+      %nav
+        %ul.list-inline.links
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+                %i.fa.fa-github
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-linkedin
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-twitter
+
+/ About me Section
+.container
+  %section#about.main-nav
+    %h1.text-center
+      %span.fa.fa-id-badge{"aria-hidden" => "true"}
+      about
+    .row
+      .col-md-4
+        %h2.text-primary.stm-font skills
+        %p
+          Full Stack Web Development
+        %p
+          Accounting
+      .col-md-4
+        %h2.text-primary.stm-font tools
+        %p
+          Ruby, Ruby on Rails, PostgreSQL
+        %p
+          HTML, CSS, SCSS, Bootstrap
+        %p
+          JavaScript, jQuery, React.js,
+        %p
+          Git, Heroku, Surge
+        %p
+          Microsoft Office Suite
+
+      .col-md-4
+        %h2.text-primary.stm-font education
+        %h4.about-text
+          Florida Southern College
+        %p
+          Master of Accountancy
+        %p
+          Bachelor of Science in Accounting
+        %p
+          Bachelor of Science in Business Administration
+      .col-md-12
+        %h2.text-primary.stm-font experience
+        .row
+          .col-md-4
+            %h4.about-text
+              The Iron Yard
+            %p
+              Ruby on Rails Developer
+          .col-md-4
+            %h4.about-text
+              PricewaterhouseCoopers LLP
+            %p
+              Audit Specialist
+          .col-md-4
+            %h4.about-text
+              CliftonLarsonAllen LLP
+            %p
+              Tax & Audit Intern
+          .col-md-4
+            %h4.about-text
+              Publix Super Markets, Inc.
+            %p
+              Business Analysis and Reporting – Fixed Assets Analysts
+          .col-md-4
+            %h4.about-text
+              Cross, Fernandez, and Riley LLP
+            %p
+              Spring Tax Associate Intern
+          .col-md-4
+            %h4.about-text
+              GC Services LP
+            %p
+              Financial Services Department Manager
+
+  %section#portfolio.main-nav
+    / start portfolio
+    %h1.text-center
+      %span.fa.fa-code{"aria-hidden" => "true"}
+      portfolio
+    .row
+      / -start row
+      .col-sm-6.col-md-4
+        / start element 2
+        .thumbnail.shadow.up-hover
+          %img{:src => ""}/
+          .cust-caption
+            %a{:href => ""}
+              %h3.stm-font Fruitcake fruitcake
+            %p.minor-text Fruitcake fruitcake biscuit tootsie roll sweet lollipop oat cake icing bonbon. Jelly-o tart apple pie.
+      / end element 2
+    / -end row
+  / end portfolio
+  / start contact
+  %section#contact.main-nav
+    %h1.text-center
+      %span.fa.fa-envelope-o{"aria-hidden" => "true"}
+      contact
+    .container
+      .col-sm-12.center
+        %h3
+          find me via
+        %ul.list-inline.links
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+                %i.fa.fa-github
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-twitter
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-linkedin
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-envelope-o
+
+/ end container
+%footer#links.main-nav.stm-font.dark-bg
+  .container
+    .col-sm-12.center
+      %h5
+        made with ruby on rails, bootstrap, and jquery
+      %h5
+        copyright © 2017 by kenia valladarez
+        %i.fa.fa-heart
+
+-# .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
+-#   %a.btn.btn-primary{:href => "#page-top"}
+-#     %i.fa.fa-chevron-up
