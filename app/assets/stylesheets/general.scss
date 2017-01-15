@@ -1,45 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
+// .container-fluid {
+//   padding: 0px;
+// }
 
-@media (min-width: 768px) {
-  .navbar-fixed-top {
-    padding: 25px 0;
-    transition: padding 0.3s;
-  }
-  .navbar-brand-text {
-    font-size: 2em;
-    transition: all 0.3s;
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-  }
-  .nav-bar-icon {
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-    // font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-  }
-  .navbar-fixed-top.navbar-shrink {
-    padding: 10px 0;
-  }
-  .navbar-fixed-top.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
-  }
-
-}
-
-.container-fluid {
-  padding: 0px;
-}
-
-#home {
-  padding-top: 1px;
-}
-
-.heading.dark-bg {
-  text-align: center;
+.jumbotron {
   background: #75caeb;
   color: white;
-  padding-bottom: 50px;
 }
 
 .about-text {
@@ -107,17 +74,6 @@
   left: 10px;
 }
 
-.logo {
-  padding-top: 50px;
-}
-
-.logo img {
-  position: relative;
-  width: 100%;
-  max-width: 450px;
-  margin: auto;
-}
-
 .avatar {
   display: block;
   position: relative;
@@ -134,31 +90,8 @@
   font-size: 8em;
 }
 
-.btn {
-  font-size: 1.5em;
-}
-
-.links {
-  padding: 30px 0;
-}
-
-.main-nav {
-  padding-top: 50px;
-}
-
-.main-nav h1 {
-  padding-bottom: 20px;
-}
-
-footer {
-  height: 100%;
-  min-height: 250px;
-  // color: #ccc;
-  font-size: 1.5em;
-}
-
-.dark-bg {
-  background: fixed url('');
+.jumbo-link {
+  font-size: 1.3em;
 }
 
 .link-to-text-color {
@@ -169,27 +102,21 @@ footer {
   color: white;
 }
 
-footer img {
-  display: block;
-  position: relative;
-  margin: 5px auto 20px;
-}
-
 .center {
   text-align: center;
 }
 
-footer li,
-footer p {
-  margin: 0;
-  padding: 7px;
+footer {
+  padding-top: 50px;
 }
 
-ul.links i {
-  font-size: 25px;
+.footer-box {
+  padding: 0px;
 }
 
-
+.footer-text {
+  padding: 0px;
+}
 // Scroll Back to top button
 // .scroll-top {
 //   position: fixed;

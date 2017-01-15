@@ -4,12 +4,7 @@ $secondColor: #85A5CC;
 $thirdColor: #30395C;
 $fourthColor: #D0E4F2;
 
-/* mini reset */
-// * { margin:0;
-//   padding: 0;}
-
 /* General */
-body { background-color: #fff; }
 .clear { clear: both; }
 .fleft { float: left; }
 
@@ -23,21 +18,26 @@ body { background-color: #fff; }
   float: left;
 }
 
-@media only screen and (max-width : 1200px) {
-  .typewriter-box {
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .typewriter-text {
     position: absolute;
-    margin-left: 300px;
+    margin-left: 35px;
     margin-top: 0px;
   }
 
   .typewriter {
     position: relative;
-    left: 293px;
+    left: 30px;
     top: 60px;
   }
 
+  .typewriter-box {
+    padding: 0px;
+  }
+
   .find-me-text-box {
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 45px;
   }
 
@@ -47,89 +47,121 @@ body { background-color: #fff; }
   }
 }
 
-@media only screen and (max-width : 979px) {
-  .typewriter-box {
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+  .typewriter-text {
     position: absolute;
+    margin-left: 55px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 50px;
+    top: 60px;
+  }
+
+  .typewriter-box {
+    padding: 0px;
+  }
+
+  .find-me-text-box {
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 45px;
+    padding-top: 10px;
+  }
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) {
+  .typewriter-text {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 80px;
+    top: 60px;
+  }
+
+  .typewriter-box {
+    padding: 0px;
+  }
+
+  .find-me-text-box {
+    margin-left: 110px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 75px;
+    padding-top: 10px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .typewriter-text {
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 80px;
+    top: 60px;
+  }
+
+  .typewriter-box {
+    padding: 0px;
+  }
+
+  .find-me-text-box {
     margin-left: 70px;
-    margin-top: 0px;
-  }
-
-  .typewriter {
-    position: relative;
-    left: 63px;
-    top: 60px;
-  }
-
-  .find-me-text-box {
-    margin-left: 50px;
     margin-top: 45px;
   }
 
   .find-me-text-links {
-    margin-left: 5px;
+    margin-left: 35px;
     padding-top: 10px;
   }
 }
 
-@media only screen and (max-width : 767px) {
-  .typewriter-box {
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
+  .typewriter-text {
     position: absolute;
-    margin-left: 255px;
+    margin-left: 55px;
     margin-top: 0px;
   }
 
   .typewriter {
     position: relative;
-    left: 248px;
+    left: 50px;
     top: 60px;
   }
 
-  .find-me-text-box {
-    margin-left: 280px;
-    margin-top: 45px;
-  }
-
-  .find-me-text-links {
-    margin-left: 235px;
-    padding-top: 10px;
-  }
-}
-
-@media only screen and (max-width : 480px) {
   .typewriter-box {
-    position: absolute;
-    margin-left: 115px;
-    margin-top: 0px;
-  }
-
-  .typewriter {
-    position: relative;
-    left: 105px;
-    top: 60px;
+    padding: 0px;
   }
 
   .find-me-text-box {
-    margin-left: 140px;
+    margin-left: 80px;
     margin-top: 45px;
   }
 
   .find-me-text-links {
-    margin-left: 90px;
+    margin-left: 45px;
     padding-top: 10px;
   }
 }
-
-// .typewriter-box {
-//   position: absolute;
-//   margin-left: 65px;
-//   margin-top: 0px;
-// }
-//
-// .typewriter {
-//   position: relative;
-//   left: 55px;
-//   top: 50px;
-// }
 
 /* Roll */
 .typewriter .roll { height: 35px; width: 182px; }
