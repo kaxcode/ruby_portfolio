@@ -8,12 +8,6 @@ $fourthColor: #D0E4F2;
 // * { margin:0;
 //   padding: 0;}
 
-.typewriter-box {
-  position: absolute;
-  margin-left: 65px;
-  margin-top: 0px;
-}
-
 /* General */
 body { background-color: #fff; }
 .clear { clear: both; }
@@ -29,12 +23,113 @@ body { background-color: #fff; }
   float: left;
 }
 
-.typewriter {
-  position: relative;
-  left: 55px;
-  top: 50px
+@media only screen and (max-width : 1200px) {
+  .typewriter-box {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 0px;
+  }
 
+  .typewriter {
+    position: relative;
+    left: 293px;
+    top: 60px;
+  }
+
+  .find-me-text-box {
+    margin-left: 70px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 25px;
+    padding-top: 10px;
+  }
 }
+
+@media only screen and (max-width : 979px) {
+  .typewriter-box {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 63px;
+    top: 60px;
+  }
+
+  .find-me-text-box {
+    margin-left: 50px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 5px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  .typewriter-box {
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 248px;
+    top: 60px;
+  }
+
+  .find-me-text-box {
+    margin-left: 280px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 235px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .typewriter-box {
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 105px;
+    top: 60px;
+  }
+
+  .find-me-text-box {
+    margin-left: 140px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 90px;
+    padding-top: 10px;
+  }
+}
+
+// .typewriter-box {
+//   position: absolute;
+//   margin-left: 65px;
+//   margin-top: 0px;
+// }
+//
+// .typewriter {
+//   position: relative;
+//   left: 55px;
+//   top: 50px;
+// }
 
 /* Roll */
 .typewriter .roll { height: 35px; width: 182px; }
@@ -103,7 +198,7 @@ body { background-color: #fff; }
   background-color: $secondColor;
   z-index: 5;
   position: relative;
-  padding-left: 11px
+  padding-left: 13px;
 }
 
 .typewriter .content .top-content .rounded-left {

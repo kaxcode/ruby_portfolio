@@ -23,7 +23,7 @@
                 %i.fa.fa-twitter
           %li
             .btn.btn-warning.btn-lg
-              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Email Kenia", class: "link-to-text-color" do
                 %i.fa.fa-envelope-o
 
 / About me Section
@@ -120,7 +120,7 @@
       %span.fa.fa-envelope-o{"aria-hidden" => "true"}
       contact
     .container
-      .col-sm-5
+      .col-sm-6.col-xs-12.center
         =link_to new_contact_path do
           %h3.text-center.typewriter-box leave a message
           %section.typewriter
@@ -180,13 +180,10 @@
                   %li.type-key
                 %ul.last
                   %li.type-key
-      .col-sm-2.center
-        %h3
-          or
-      .col-sm-5.center
-        %h3
+      .col-sm-6.col-xs-12
+        %h3.find-me-text-box
           find me via
-        %ul.list-inline.links
+        %ul.list-inline.links.find-me-text-links
           %li
             .btn.btn-warning.btn-lg
               = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
