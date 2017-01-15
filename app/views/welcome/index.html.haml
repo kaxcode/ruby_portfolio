@@ -115,24 +115,15 @@
     %h1.text-center
       %span.fa.fa-envelope-o{"aria-hidden" => "true"}
       contact
-    .row
-      .col-sm-4
-        / My picture
-        / <img src="http://Kenia.altervista.org/ext/avatar.png" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
-      .col-sm-8
-        %h2.text-primary.stm-font skills
-        %p.minor-text
-          Full Stack Web Development
-        %h2.text-primary.stm-font tools
-        %p.minor-text
-          Ruby, Ruby on Rails, PostgreSQL - HTML, CSS, SCSS, Bootstrap - JavaScript, jQuery, React.js, PostgreSQL - Git, Heroku
-/ end container
-%footer#links.main-nav.stm-font.dark-bg
-  .container
-    .col-sm-12.center
-      %p
-        contact me at
+    .container
+      .col-sm-12.center
+        %h3
+          find me via
         %ul.list-inline.links
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+                %i.fa.fa-github
           %li
             .btn.btn-warning.btn-lg
               = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
@@ -145,8 +136,16 @@
             .btn.btn-warning.btn-lg
               = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
                 %i.fa.fa-envelope-o
-      %p
-        Copyright © 2017 by Kenia Valladarez
+
+/ end container
+%footer#links.main-nav.stm-font.dark-bg
+  .container
+    .col-sm-12.center
+      %h5
+        made with ruby on rails, bootstrap, and jquery
+      %h5
+        copyright © 2017 by kenia valladarez
+        %i.fa.fa-heart
 
 -# .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
 -#   %a.btn.btn-primary{:href => "#page-top"}
