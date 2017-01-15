@@ -5,42 +5,47 @@
         .logo
           /Kenia Valladarez
           / <img src=".png" alt="Kenia's Logo" />
-        %h1.stm-font Full-Stack Developer
+        %h1.stm-font full-stack developer
     .row
       %nav
         %ul.list-inline.links
           %li
-            %a.btn.btn-warning.btn-lg{:href => "https://github.com/kaxcode", :target => "_blank", :title => "Kenia on GitHub"}
-              %i.fa.fa-github
+            .btn.btn-warning.btn-lg
+              = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+                %i.fa.fa-github
           %li
-            %a.btn.btn-warning.btn-lg{:href => "https://www.linkedin.com/in/keniavalladarez", :target => "_blank", :title => "Kenia on Linkedin"}
-              %i.fa.fa-linkedin
+            .btn.btn-warning.btn-lg
+              = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-linkedin
           %li
-            %a.btn.btn-warning.btn-lg{:href => "https://twitter.com/kaxcode", :target => "_blank", :title => "Kenia on Twitter"}
-              %i.fa.fa-twitter
+            .btn.btn-warning.btn-lg
+              = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-twitter
 
 / About me Section
 .container
   %section#about.main-nav
     %h1.text-center
       %span.fa.fa-id-badge{"aria-hidden" => "true"}
-      About
+      about
     .row
       .col-sm-4
         / My picture
         / <img src="http://Kenia.altervista.org/ext/avatar.png" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
       .col-sm-8
-        %h2.text-primary.stm-font Skills
+        %h2.text-primary.stm-font skills
         %p.minor-text
           Full Stack Web Development
-        %h2.text-primary.stm-font Tools
+        %h2.text-primary.stm-font tools
         %p.minor-text
           Ruby, Ruby on Rails, PostgreSQL - HTML, CSS, SCSS, Bootstrap - JavaScript, jQuery, React.js, PostgreSQL - Git, Heroku
+        %h2.text-primary.stm-font tools
+        %p.minor-text
   %section#portfolio.main-nav
     / start portfolio
     %h1.text-center
       %span.fa.fa-code{"aria-hidden" => "true"}
-      Portfolio
+      portfolio
     .row
       / -start row
       .col-sm-6.col-md-4
@@ -58,43 +63,39 @@
   %section#contact.main-nav
     %h1.text-center
       %span.fa.fa-envelope-o{"aria-hidden" => "true"}
-      Contact
+      contact
     .row
       .col-sm-4
         / My picture
         / <img src="http://Kenia.altervista.org/ext/avatar.png" alt="description" title="tool tip" class="img-circle shadow up-hover avatar">
       .col-sm-8
-        %h2.text-primary.stm-font Skills
+        %h2.text-primary.stm-font skills
         %p.minor-text
           Full Stack Web Development
-        %h2.text-primary.stm-font Tools
+        %h2.text-primary.stm-font tools
         %p.minor-text
           Ruby, Ruby on Rails, PostgreSQL - HTML, CSS, SCSS, Bootstrap - JavaScript, jQuery, React.js, PostgreSQL - Git, Heroku
 / end container
 %footer#links.main-nav.stm-font.dark-bg
   .container
-    .col-sm-4.hidden-xs
-      %ul.list-unstyled
-        -# %li
-        -#   Created for
-        -#   %a{:href => "http://www.freecodecamp.com/", :target => "_blank"} freeCodeCamp
-        %li
-          Powered by
-          %a{:href => "https://jquery.com/", :target => "_blank"} jQuery
-        %li
-          Designed with
-          %a{:href => "http://getbootstrap.com/", :target => "_blank"} Bootstrap
-        -# %li
-        -#   Custom Graphics in
-        -#   %a{:href => "https://inkscape.org/", :target => "_blank"} Inkscape
-    .col-sm-8.center
-      %img#flogo{:alt => "logo: Kenia", :src => "#", :title => "logo", :width => "150px"}/
+    .col-sm-12.center
       %p
         contact me at
-        %a{:href => "mailto:mail@example.com"} mail@example.com
+        %ul.list-inline.links
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-twitter
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-linkedin
+          %li
+            .btn.btn-warning.btn-lg
+              = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                %i.fa.fa-envelope-o
       %p
-        Copyright © 2017 by
-        %a{:href => "", :target => "_blank"}
+        Copyright © 2017 by Kenia Valladarez
 
 -# .scroll-top.page-scroll.hidden-sm.hidden-xs.hidden-lg.hidden-md
 -#   %a.btn.btn-primary{:href => "#page-top"}

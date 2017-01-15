@@ -82,7 +82,8 @@
   box-shadow: 15px 15px 15px #777;
 }
 
-.cust-caption a {
+.cust-caption a
+.link-to-text-color {
   color: white;
   text-shadow: 1px 1px 2px black;
 }
@@ -156,11 +157,11 @@ footer {
   background: fixed url('');
 }
 
-footer a {
+.link-to-text-color {
   color: white;
 }
 
-footer a:hover {
+.link-to-text-color:hover {
   color: white;
 }
 
