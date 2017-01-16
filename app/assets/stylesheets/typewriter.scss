@@ -1,8 +1,8 @@
 /* Colors */
-$mainColor: #4A6491;
+$mainColor: #75CAEB;
 $secondColor: #85A5CC;
-$thirdColor: #30395C;
-$fourthColor: #D0E4F2;
+$thirdColor: #69b5d3;
+$fourthColor: #e3f4fb;
 
 /* General */
 .clear { clear: both; }
@@ -105,6 +105,64 @@ $fourthColor: #D0E4F2;
   }
 }
 
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .typewriter-text {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+    position: relative;
+    left: 190px;
+    top: 60px;
+  }
+
+  .typewriter-box {
+    padding: 0px;
+  }
+
+  .find-me-text-box {
+    margin-left: 110px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 75px;
+    padding-top: 10px;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width: 1824px) {
+  .typewriter-text {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .typewriter {
+     position: relative;
+     left: 190px;
+     top: 60px;
+  }
+
+  .typewriter-box {
+    padding: 0px;
+  }
+
+  .find-me-text-box {
+    margin-left: 110px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 75px;
+    padding-top: 10px;
+  }
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .typewriter-text {
