@@ -149,19 +149,13 @@ $fourthColor: #eec3c3;
   }
 
   .typewriter-box {
-    padding: 0px;
+    padding: 0;
   }
 
   .find-me-text-box {
     margin-left: 110px;
     margin-top: 5px;
-    // margin-top: 45px;
   }
-  //
-  // .find-me-text-links {
-  //   margin-left: 75px;
-  //   padding-top: 10px;
-  // }
 
   .btn-circle-footer {
     width: 70px;
@@ -179,51 +173,40 @@ $fourthColor: #eec3c3;
   }
 }
 
-/* Large screens ----------- */
-@media only screen  and (min-width: 1824px) {
-  .typewriter-text {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 0px;
-  }
-
-  .typewriter {
-     position: relative;
-     left: 190px;
-     top: 60px;
-  }
-
-  .typewriter-box {
-    padding: 0px;
-  }
-
-  // .find-me-text-box {
-  //   margin-left: 110px;
-  //   // margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 75px;
-  //   padding-top: 10px;
-  // }
-}
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .typewriter-text {
     position: absolute;
-    margin-left: 85px;
-    margin-top: 0px;
+    margin-top: 5px;
   }
 
   .typewriter {
     position: relative;
-    left: 80px;
     top: 60px;
   }
 
   .typewriter-box {
-    padding: 0px;
+    padding: 0;
+  }
+
+  .find-me-text-box {
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .btn-circle-footer {
+    width: 70px;
+    height: 70px;
+    padding: 16px 16px;
+    font-size: 2em;
+    line-height: 1.33;
+    border-radius: 35px;
+    background-color: #ff8b94;
+  }
+
+  .footer-social {
+    margin-top: 40px;
+    margin-left: -1.4em;
   }
 
   // .find-me-text-box {
