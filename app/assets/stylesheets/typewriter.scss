@@ -75,15 +75,25 @@ $fourthColor: #eec3c3;
     padding: 0px;
   }
 
-  // .find-me-text-box {
-  //   margin-left: 80px;
-  //   margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 45px;
-  //   padding-top: 10px;
-  // }
+  .btn-circle-footer {
+    width: 60px;
+    height: 60px;
+    padding: 10px 8px;
+    font-size: 2em;
+    line-height: 1.33;
+    border-radius: 35px;
+    background-color: #ff8b94;
+  }
+
+  .find-me-text-box {
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+    margin-left: 2em;
+  }
 }
 
 /* iPhone 6+ ----------- */
@@ -91,7 +101,7 @@ $fourthColor: #eec3c3;
   .typewriter-text {
     position: absolute;
     margin-left: 85px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .typewriter {
@@ -104,15 +114,25 @@ $fourthColor: #eec3c3;
     padding: 0px;
   }
 
-  // .find-me-text-box {
-  //   margin-left: 110px;
-  //   margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 75px;
-  //   padding-top: 10px;
-  // }
+  .btn-circle-footer {
+    width: 80px;
+    height: 80px;
+    padding: 16px 8px;
+    font-size: 2.5em;
+    line-height: 1.33;
+    border-radius: 45px;
+    background-color: #ff8b94;
+  }
+
+  .find-me-text-box {
+    margin-left: 110px;
+    margin-top: 45px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+    margin-left: 1.8em;
+  }
 }
 
 
