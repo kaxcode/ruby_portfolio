@@ -21,10 +21,10 @@
     -#   %i.fa.fa-chevron-up{"aria-hidden" => "true"}
 
     %nav#mainNav.navbar.navbar-default.navbar-fixed-top
-      .container
+      .container-fluid
         / Brand and toggle get grouped for better mobile display
         .navbar-header
-          %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+          %button.navbar-toggle.collapsed{type: "button", data: {toggle: "collapse", target: "#navbar"}, aria: {expanded: "false", controls: "navbar"} }
             %span.sr-only Toggle navigation
             %span.icon-bar
             %span.icon-bar
@@ -39,25 +39,25 @@
             %li.nav-bar-icon.page-scroll
               %a.hash{:href => "#home"}
                 %span.nav-text-link
-                  Home
+                  home
             %li.nav-bar-icon.page-scroll
               %a.hash{:href => "#about"}
                 %span.nav-text-link
-                  About
+                  about
             %li.nav-bar-icon.page-scroll.dropdown
               %a.hash{:href => "#portfolio"}
                 %span.nav-text-link
-                  Portfolio
+                  portfolio
             %li.nav-bar-icon.page-scroll
               %a.hash{:href => "#contact"}
                 -# %span.glyphicon.glyphicon-envelope{"aria-hidden" => "true"}
                 %span.nav-text-link
-                  Contact
-    .container-fluid
+                  contact
+    .container
       - flash.each do |name, msg|
         = content_tag :div, class: "alert alert-#{name == :error ? "danger" : "success" } alert-dismissable", role: "alert" do
           %button.close{type: "button", data: {dismiss: "alert"} }
             %span{aria: {hidden: "true"} } &times;
             %span.sr-only Close
           = msg
-    = yield
+      = yield
