@@ -23,7 +23,7 @@
   padding: 0;
 }
 
-.btn-circle {
+.btn-circle-header {
   width: 70px;
   height: 70px;
   padding: 10px 16px;
@@ -72,33 +72,6 @@
   }
 }
 
-// /* iPhone 5 (lanscape)----------- */
-// @media only screen
-//   and (min-device-width: 320px)
-//   and (max-device-height: 568px)
-//   and (orientation: landscape) {
-//   .name {
-//     margin-top: 1.3em;
-//     font-size: 1.3em;
-//     font-family: 'Open Sans', sans-serif;
-//   }
-//
-//   .header-about {
-//     margin-top: 1.3em;
-//     font-size: 1.5em;
-//   }
-//
-//   .header-social {
-//     margin-top: 0.2em;
-//     font-size: 5em;
-//     padding: 0 14px;
-//   }
-//
-//   .jumbotron {
-//     height: 100vh;
-//   }
-// }
-
 /* iPhone 6 (portrait)----------- */
 @media only screen
   and (min-device-width: 375px)
@@ -125,7 +98,7 @@
     height: 85vh;
   }
 
-  .btn-circle {
+  .btn-circle-header {
     width: 80px;
     height: 80px;
     padding: 10px 16px;
@@ -194,7 +167,7 @@
     height: 92vh;
   }
 
-  .btn-circle {
+  .btn-circle-header {
     width: 110px;
     height: 110px;
     padding: 10px 16px;
@@ -244,7 +217,7 @@
     padding: 0;
   }
 
-  .btn-circle {
+  .btn-circle-header {
     width: 110px;
     height: 110px;
     padding: 10px 16px;
@@ -284,7 +257,7 @@
     padding: 0 10px;
   }
 
-  .btn-circle {
+  .btn-circle-header {
     width: 110px;
     height: 110px;
     padding: 10px 16px;
@@ -326,7 +299,7 @@
     padding: 0 10px;
   }
 
-  .btn-circle {
+  .btn-circle-header {
     width: 110px;
     height: 110px;
     padding: 10px 16px;
@@ -338,6 +311,10 @@
 
   .jumbo-link {
     margin-top: 0.3em;
+  }
+
+  .footer-social {
+    font-size: 9em;
   }
 }
 
