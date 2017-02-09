@@ -1,7 +1,7 @@
 /* Colors */
 $mainColor: #b26666;
-$secondColor: #dd9e88;
-$thirdColor: #ba8484;
+$secondColor: #ff8b94;
+$thirdColor: #b26167;
 $fourthColor: #eec3c3;
 
 /* General */
@@ -36,15 +36,25 @@ $fourthColor: #eec3c3;
     padding: 0px;
   }
 
-  // .find-me-text-box {
-  //   margin-left: 60px;
-  //   margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 25px;
-  //   padding-top: 10px;
-  // }
+  .find-me-text-box {
+    margin-left: 60px;
+    margin-top: 45px;
+  }
+
+  .btn-circle-footer {
+    width: 60px;
+    height: 60px;
+    padding: 10px 8px;
+    font-size: 2em;
+    line-height: 1.33;
+    border-radius: 35px;
+    background-color: #ff8b94;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+    margin-left: 1em;
+  }
 }
 
 /* iPhone 6 ----------- */
@@ -140,7 +150,7 @@ $fourthColor: #eec3c3;
     font-size: 0.29em;
     line-height: 1.33;
     border-radius: 35px;
-    background-color: #eec3c3;
+    background-color: #ff8b94;
   }
 
   .footer-social {
@@ -312,7 +322,7 @@ $fourthColor: #eec3c3;
   margin: 4px 0 0 2px;
   border: 7px solid $mainColor;
   border-radius: 40px;
-  background-color: #ebebeb;
+  background-color: #fff;
 }
 
 .typewriter .content .top-content .lettersbar {
@@ -320,7 +330,7 @@ $fourthColor: #eec3c3;
   height: 32px;
   margin: 5px 2px;
   border-radius: 0 0 80px 80px;
-  background-color: #ebebeb;
+  background-color: #fff;
 }
 
 .typewriter .content .top-content .rounded-right {
