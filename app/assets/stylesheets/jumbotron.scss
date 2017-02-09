@@ -134,6 +134,33 @@
   }
 }
 
+/* iPhone 6 (landscpe)----------- */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-height: 667px)
+  and (orientation: landscape) {
+  .name {
+    margin-top: 2.1em;
+    font-size: 1.9em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.8em;
+    font-size: 1.7em;
+  }
+
+  .header-social {
+    margin-top: 0.4em;
+    font-size: 5em;
+    padding: 0 41px;
+  }
+
+  .jumbotron {
+    height: 85vh;
+  }
+}
+
 /* iPhone 6+ (portrait) ----------- */
 // @media only screen
 //   and (min-device-width: 414px)
