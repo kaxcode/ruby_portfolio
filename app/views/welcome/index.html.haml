@@ -1,31 +1,31 @@
-.header#home
-  .jumbotron
-    .center.name Hello, stranger. My name is Kenia Valladarez.
-    .center.header-about I'm a full-stack developer who likes to make cool things.
-    .ul.list-inline.center.header-social
-      %li.jumbo-link
-        %button.btn.btn-default.btn-circle{:type => "button"}
-          = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
-            %i.fa.fa-github
-      %li.jumbo-link
-        %button.btn.btn-default.btn-circle{:type => "button"}
-          = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
-            %i.fa.fa-linkedin
-      %li.jumbo-link
-        %button.btn.btn-default.btn-circle{:type => "button"}
-          = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
-            %i.fa.fa-twitter
-      %li.jumbo-link
-        %button.btn.btn-default.btn-circle{:type => "button"}
-          = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Email Kenia", class: "link-to-text-color" do
-            %i.fa.fa-envelope-o
+.container
+  .header#home
+    .jumbotron.top-nav-box
+      .center.name Hello, stranger. My name is Kenia Valladarez.
+      .center.header-about I'm a full-stack developer who likes to make cool things.
+      .ul.list-inline.center.header-social
+        %li.jumbo-link
+          %button.btn.btn-default.btn-circle{:type => "button"}
+            = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+              %i.fa.fa-github
+        %li.jumbo-link
+          %button.btn.btn-default.btn-circle{:type => "button"}
+            = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+              %i.fa.fa-linkedin
+        %li.jumbo-link
+          %button.btn.btn-default.btn-circle{:type => "button"}
+            = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+              %i.fa.fa-twitter
+        %li.jumbo-link
+          %button.btn.btn-default.btn-circle{:type => "button"}
+            = link_to "mailto:keniavalladarez@gmail.com", target: "_blank", title: "Email Kenia", class: "link-to-text-color" do
+              %i.fa.fa-envelope-o
 
-/ About me Section
-#about
-  %h1.text-center
-    %span.fa.fa-id-badge{"aria-hidden" => "true"}
-    about
-  .col-md-11.col-md-offset-1
+  / About me Section
+  #about.about
+    %h1.text-center
+      %span.fa.fa-id-badge{"aria-hidden" => "true"}
+      about
     .col-lg-6.col-md-6.col-sm-6.about-boxes
       %h2.text-primary.stm-font skills&tools
       %p
@@ -57,146 +57,145 @@
         Bachelor of Science in Accounting
       %p
         Bachelor of Science in Business Administration
-    .col-sm-12.about-boxes
-      %h2.text-primary.stm-font experience
-      .row
-        .col-md-4.col-sm-6
-          %h4.about-text
-            The Iron Yard
-          %p
-            Ruby on Rails Developer
-        .col-md-4.col-sm-6
-          %h4.about-text
-            PricewaterhouseCoopers LLP
-          %p
-            Audit Specialist
-        .col-md-4.col-sm-6
-          %h4.about-text
-            CliftonLarsonAllen LLP
-          %p
-            Tax & Audit Intern
-        .col-md-4.col-sm-6
-          %h4.about-text
-            Publix Super Markets, Inc.
-          %p
-            Business Analysis and Reporting – Fixed Assets Analysts
-        .col-md-4.col-sm-6
-          %h4.about-text
-            Cross, Fernandez, and Riley LLP
-          %p
-            Spring Tax Associate Intern
-        .col-md-4.col-sm-6
-          %h4.about-text
-            GC Services LP
-          %p
-            Financial Services Department Manager
+
+  .experience-box
+    %h2.text-primary.stm-font experience
+    .row
+      .col-md-4.col-sm-6
+        %h4.about-text
+          The Iron Yard
+        %p
+          Ruby on Rails Developer
+      .col-md-4.col-sm-6
+        %h4.about-text
+          PricewaterhouseCoopers LLP
+        %p
+          Audit Specialist
+      .col-md-4.col-sm-6
+        %h4.about-text
+          CliftonLarsonAllen LLP
+        %p
+          Tax & Audit Intern
+      .col-md-4.col-sm-6
+        %h4.about-text
+          Publix Super Markets, Inc.
+        %p
+          Business Analysis and Reporting – Fixed Assets Analysts
+      .col-md-4.col-sm-6
+        %h4.about-text
+          Cross, Fernandez, and Riley LLP
+        %p
+          Spring Tax Associate Intern
+      .col-md-4.col-sm-6
+        %h4.about-text
+          GC Services LP
+        %p
+          Financial Services Department Manager
+
+  -# #portfolio.portfolio
+  -#   .row
+  -#     %h1.text-center
+  -#       %h1.text-center
+  -#         %span.fa.fa-code{"aria-hidden" => "true"}
+  -#         Portfolio
+  -#     .thumbnail.shadow.up-hover
+  -#       %img{:src => ""}/
+  -#       .cust-caption
+  -#         %a{:href => ""}
+  -#           %h3.stm-font Fruitcake fruitcake
+  -#         %p.minor-text Fruitcake fruitcake biscuit tootsie roll sweet lollipop oat cake icing bonbon. Jelly-o tart apple pie.
+
+  .contact
+    .section#contact
+      %h1.text-center
+        %span.fa.fa-envelope-o{"aria-hidden" => "true"}
+        contact
+      .container.typewriter-box
+        .col-md-8.col-md-offset-2
+          .col-sm-6.col-xs-12.center
+            =link_to new_contact_path do
+              %h3.text-center.typewriter-text leave a message
+              %section.typewriter
+                %section.roll.clear
+                  .paper
+                    %span.papertext  
+                    %span.papertext  
+                    %span.papertext  
+                    %span.papertext  
+                    %span.papertext  
+                  .out
+                  .left.fleft
+                    %span.firstpart.fleft  
+                    %span.secondpart.fleft  
+                  .center.fleft
+                  .right.fleft
+                    %span.secondpart.fleft  
+                    %span.firstpart.fleft  
+                %section.content
+                  .top-content
+                    %span.rounded-left.fleft  
+                    %span.lettersbar.fleft  
+                    %span.rounded-right.fleft  
+                  .bottom-content
+                    %ul.first
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                    %ul.second
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                    %ul.third
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                      %li.type-key
+                    %ul.last
+                      %li.type-key
+          .col-sm-6.col-xs-12
+            %h3.find-me-text-box
+              find me via
+            %ul.list-inline.find-me-text-links
+              %li.contact-link
+                .btn.btn-warning.btn-lg
+                  = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
+                    %i.fa.fa-github
+              %li.contact-link
+                .btn.btn-warning.btn-lg
+                  = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                    %i.fa.fa-twitter
+              %li.contact-link
+                .btn.btn-warning.btn-lg
+                  = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
+                    %i.fa.fa-linkedin
 
 
-.section#portfolio
-  / start portfolio
-  %h1.text-center
-    %span.fa.fa-code{"aria-hidden" => "true"}
-    portfolio
-  .row
-    .col-sm-6.col-md-4
-      .thumbnail.shadow.up-hover
-        %img{:src => ""}/
-        .cust-caption
-          %a{:href => ""}
-            %h3.stm-font Fruitcake fruitcake
-          %p.minor-text Fruitcake fruitcake biscuit tootsie roll sweet lollipop oat cake icing bonbon. Jelly-o tart apple pie.
-
-.contact
-  .section#contact
-    %h1.text-center
-      %span.fa.fa-envelope-o{"aria-hidden" => "true"}
-      contact
-    .container.typewriter-box
-      .col-md-8.col-md-offset-2
-        .col-sm-6.col-xs-12.center
-          =link_to new_contact_path do
-            %h3.text-center.typewriter-text leave a message
-            %section.typewriter
-              %section.roll.clear
-                .paper
-                  %span.papertext  
-                  %span.papertext  
-                  %span.papertext  
-                  %span.papertext  
-                  %span.papertext  
-                .out
-                .left.fleft
-                  %span.firstpart.fleft  
-                  %span.secondpart.fleft  
-                .center.fleft
-                .right.fleft
-                  %span.secondpart.fleft  
-                  %span.firstpart.fleft  
-              %section.content
-                .top-content
-                  %span.rounded-left.fleft  
-                  %span.lettersbar.fleft  
-                  %span.rounded-right.fleft  
-                .bottom-content
-                  %ul.first
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                  %ul.second
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                  %ul.third
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                    %li.type-key
-                  %ul.last
-                    %li.type-key
-        .col-sm-6.col-xs-12
-          %h3.find-me-text-box
-            find me via
-          %ul.list-inline.find-me-text-links
-            %li.contact-link
-              .btn.btn-warning.btn-lg
-                = link_to "https://github.com/kaxcode", target: "_blank", title: "Kenia on GitHub", class: "link-to-text-color" do
-                  %i.fa.fa-github
-            %li.contact-link
-              .btn.btn-warning.btn-lg
-                = link_to "https://twitter.com/kaxcode", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
-                  %i.fa.fa-twitter
-            %li.contact-link
-              .btn.btn-warning.btn-lg
-                = link_to "https://www.linkedin.com/in/keniavalladarez", target: "_blank", title: "Kenia on Linkedin", class: "link-to-text-color" do
-                  %i.fa.fa-linkedin
-
-
-/ end container
-%footer.stm-font
-  .container.footer-box
-    .col-sm-12.center.footer-text
-      %h5
-        made with ruby on rails, bootstrap, and jquery
-      %h5
-        copyright © 2017 by kenia valladarez
-        %i.fa.fa-heart
+  / end container
+  %footer.stm-font
+    .container.footer-box
+      .col-sm-12.center.footer-text
+        %h5
+          made with ruby on rails, bootstrap, and jquery
+        %h5
+          copyright © 2017 by kenia valladarez
+          %i.fa.fa-heart
