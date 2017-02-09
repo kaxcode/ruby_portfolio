@@ -1,12 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 
-// .container-fluid {
-//   padding: 0px;
-// }
+#navbar,
+.navbar-default,
+.navbar-collapse,
+.navbar-default,
+.navbar-form {
+  background-color: #b26666;
+  border-color: #b26666;
+}
+
+.navbar-brand-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-text-link {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .jumbotron {
-  background: #75caeb;
   color: white;
+  height: 100vh;
+  background-color: #eec3c3;
+  margin-top: -5px;
+}
+
+.name {
+  margin-top: 2.5em;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-about {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+.header-social {
+  font-size: 5em;
 }
 
 .about-text {
