@@ -98,22 +98,25 @@
       Portfolio
 
   .col-sm-6.col-md-4
-    .thumbnail.shadow.up-hover
-      = image_tag("portfolio/pfan3.png")
+    .thumbnail.shadow.up-hover.portfolio-thumbnail
+      .image-container.img-wrapper
+        = image_tag("portfolio/pfan3.png", class: "portfolio-image")
       .cust-caption
         %a{:href => "https://github.com/kaxcode/pfa-network"}
           %h3.project-name Polk Family Autism Network
         %p A forum for families in Polk County, FL to share resources that help them raise and care for children with autism spectrum disorder.
   .col-sm-6.col-md-4
-    .thumbnail.shadow.up-hover
-      = image_tag("portfolio/mini-twitter.png")
+    .thumbnail.shadow.up-hover.portfolio-thumbnail
+      .image-container.img-wrapper
+        = image_tag("portfolio/mini-twitter.png", class: "portfolio-image")
       .cust-caption
         %a{:href => "https://github.com/kaxcode/minitwitter-with-hearts-and-authentication"}
           %h3.project-name Mini-twitter
         %p A basic rails app that looks like twitter.
   .col-sm-6.col-md-4
-    .thumbnail.shadow.up-hover
-      = image_tag("portfolio/mini-pillow2.png")
+    .thumbnail.shadow.up-hover.portfolio-thumbnail
+      .image-container.img-wrapper
+        = image_tag("portfolio/mini-pillow2.png", class: "portfolio-image")
       .cust-caption
         %a{:href => "https://github.com/kaxcode/minipillow"}
           %h3.project-name Mini-pillow
