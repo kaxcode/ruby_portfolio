@@ -137,7 +137,7 @@ $fourthColor: #eec3c3;
 
 
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1026px) {
+@media only screen  and (min-width: 992px) {
   .typewriter-text {
     position: absolute;
     margin-top: 5px;
@@ -245,18 +245,18 @@ $fourthColor: #eec3c3;
   }
 
   .typewriter-box {
-    padding: 0px;
+    padding: 0;
   }
 
-  // .find-me-text-box {
-  //   margin-left: 80px;
-  //   margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 45px;
-  //   padding-top: 10px;
-  // }
+  .find-me-text-box {
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+
+  .find-me-text-links {
+    margin-left: 45px;
+    padding-top: 10px;
+  }
 }
 
 /* Roll */
