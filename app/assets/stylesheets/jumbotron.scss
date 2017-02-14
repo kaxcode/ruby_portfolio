@@ -67,7 +67,7 @@
   }
 
   .header-about {
-    margin-top: 1.9em;
+    margin-top: 1em;
     font-size: 2.5em;
   }
 
@@ -83,5 +83,51 @@
 }
 
 @media only screen
-  and (min-width: 735px)
+  and (min-width: 617px)
   and (max-width: 768px) {
+  .name {
+    margin-top: 1em;
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.3em;
+    font-size: 2.5em;
+  }
+
+  .header-social {
+    margin-top: 0.5em;
+    font-size: 5em;
+    padding: 0 14px;
+  }
+
+  .jumbotron {
+    height: 82vh;
+  }
+}
+
+@media only screen
+  and (min-width: 498px)
+  and (max-width: 616px) {
+  .name {
+    margin-top: 1.2em;
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.3em;
+    font-size: 2.5em;
+  }
+
+  .header-social {
+    margin-top: 0.5em;
+    font-size: 5em;
+    padding: 0 14px;
+  }
+
+  .jumbotron {
+    height: 82vh;
+  }
+}
