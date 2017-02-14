@@ -108,7 +108,7 @@
 }
 
 @media only screen
-  and (min-width: 498px)
+  and (min-width: 522px)
   and (max-width: 616px) {
   .name {
     margin-top: 1.2em;
@@ -129,5 +129,85 @@
 
   .jumbotron {
     height: 82vh;
+  }
+}
+
+@media only screen
+  and (min-width: 481px)
+  and (max-width: 521px) {
+  .name {
+    margin-top: 1.6em;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.1em;
+    font-size: 2.4em;
+  }
+
+  .header-social {
+    margin-top: 0.5em;
+    font-size: 5em;
+    padding: 0 14px;
+  }
+
+  .jumbotron {
+    height: 82vh;
+  }
+}
+
+@media only screen
+  and (min-width: 444px)
+  and (max-width: 480px) {
+  .name {
+    margin-top: 1.8em;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.1em;
+    font-size: 1.8em;
+  }
+
+  .header-social {
+    margin-top: 0.5em;
+    font-size: 5em;
+    padding: 0 10px;
+  }
+
+  .jumbotron {
+    height: 82vh;
+  }
+}
+
+@media only screen
+  and (min-width: 360px)
+  and (max-width: 479px) {
+  .name {
+    margin-top: 1.8em;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .header-about {
+    margin-top: 1.1em;
+    font-size: 1.8em;
+  }
+
+  .header-social {
+    margin-top: 0.5em;
+    font-size: 5em;
+    padding: 0 50px 0 30px;
+
+  }
+
+  .jumbotron {
+    height: 82vh;
+  }
+
+  .btn-circle-header {
+    margin-left: 1em;
   }
 }
