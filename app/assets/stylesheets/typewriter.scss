@@ -37,7 +37,7 @@ $fourthColor: #eec3c3;
   }
 
   .find-me-text-box {
-    margin-left: 60px;
+    margin-left: 0;
     margin-top: 45px;
   }
 
@@ -88,7 +88,7 @@ $fourthColor: #eec3c3;
   }
 
   .find-me-text-box {
-    margin-left: 80px;
+    margin-left: 0;
     margin-top: 45px;
   }
 
@@ -127,7 +127,7 @@ $fourthColor: #eec3c3;
   }
 
   .find-me-text-box {
-    margin-left: 110px;
+    margin-left: 0;
     margin-top: 45px;
   }
 
@@ -155,7 +155,7 @@ $fourthColor: #eec3c3;
   }
 
   .find-me-text-box {
-    margin-left: 110px;
+    margin-left: 55px;
     margin-top: 5px;
   }
 
@@ -215,16 +215,6 @@ $fourthColor: #eec3c3;
     margin-top: 40px;
     margin-left: -1.4em;
   }
-
-  // .find-me-text-box {
-  //   margin-left: 70px;
-  //   margin-top: 45px;
-  // }
-  //
-  // .find-me-text-links {
-  //   margin-left: 35px;
-  //   padding-top: 10px;
-  // }
 
   .contact,
   #contact {
@@ -287,7 +277,8 @@ $fourthColor: #eec3c3;
   and (min-width: 429px)
   and (max-width: 767px) {
   .typewriter-box {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
