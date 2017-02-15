@@ -18,6 +18,16 @@ $fourthColor: #eec3c3;
   float: left;
 }
 
+.btn-circle-footer {
+  width: 70px;
+  height: 70px;
+  padding: 14px 15px;
+  font-size: 2.2em;
+  line-height: 1.33;
+  border-radius: 35px;
+  background-color: #ff8b94;
+}
+
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .typewriter-text {
