@@ -58,7 +58,9 @@ $fourthColor: #eec3c3;
 }
 
 /* iPhone 6 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-height: 667px) {
   .typewriter-text {
     position: absolute;
     margin-left: 55px;
@@ -256,6 +258,36 @@ $fourthColor: #eec3c3;
   .find-me-text-links {
     margin-left: 45px;
     padding-top: 10px;
+  }
+}
+
+@media only screen
+  and (min-width: 1025px) {
+  .btn-circle-footer {
+    width: 70px;
+    height: 70px;
+    padding: 14px 15px;
+    font-size: 2.2em;
+    line-height: 1.33;
+    border-radius: 35px;
+    background-color: #ff8b94;
+  }
+
+  .footer-social {
+    margin-top: 2.5em;
+    margin-left: 3em;
+  }
+
+  .find-me-box-contact {
+    padding-left: 0;
+  }
+}
+
+@media only screen
+  and (min-width: 429px)
+  and (max-width: 767px) {
+  .typewriter-box {
+    margin: auto;
   }
 }
 
